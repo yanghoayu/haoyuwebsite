@@ -256,19 +256,13 @@
                 <br />  
             </div>
 
-            <div class="patent-item">
-                <h3>Patents</h3>
-                <!-- <p>(2024) <strong><u>Haoyu Yang</u></strong>, Jinlong Yuan, Li Guan, et al. Reconstruction for beam blockage of lidar based on Generative Adversarial Networks, Optics Express. https://doi.org/10.1364/OE.520528.</p> -->
-                <br />  
-            </div>
-
             <div class="project-item">
                 <h3>Projects</h3>
-                <p><u><b>Enhancing Cloud Detection with Explainable Machine Learning: A Study on FY-4B GIIRS Observations. (2024.2 - Present)</b></u></p>
-                <p class="date">Cloud detection is vital for assimilating meteorological satellite observations and inverting atmospheric parameters. This project aims to develop a machine learning algorithm for cloud detection using FY-4B GIIRS observations. 利用机器学习的解释工具分析不同通道在云检测中起到的作用，基于通道特征建立宏观云参数的反演模型，获得视场内的云掩膜、云高的参数。The algorithm demonstrates superior computational speed and detection accuracy compared to operational  products.</p><br />
+                <p><u>Enhancing Cloud Detection with Explainable Machine Learning: A Study on FY-4B GIIRS Observations. (2024.2 - Present)</u></p>
+                <p class="date">Cloud detection is essential for assimilating meteorological satellite observations and inverting atmospheric parameters. This project aims to develop a machine learning algorithm for cloud detection using FY-4B GIIRS observations. By utilizing machine learning explainable tools, the importance of different channels in cloud detection is analyzed, and a macro cloud parameter inversion model is established based on channel features to obtain cloud mask and cloud height parameters within the field of view. The algorithm demonstrates superior computational speed and detection accuracy compared to operational products.</p><br />
 
-                <p><u><b>Urban Complex Wind Field Reconstruction with Wind Lidar. (2022.09 - 2024.4)</b></u></u></p>
-                <p class="date">Wind lidar (CDWL) is a remote sensing instrument with the advantages of compact size and a high temporal-spatial resolution. Wind Lidar因其出色的精细风场探测能力，常用于城市复杂风场探测。However, beam blockage caused by obstacles is a critical factor affecting the quality of lidar data.</p>
+                <p><u>Urban Complex Wind Field Reconstruction with Wind Lidar. (2022.09 - 2024.4)</u></p>
+                <p class="date">Wind lidar is a remote sensing instrument known for its compact size and high temporal-spatial resolution. Due to its outstanding capability in fine wind field detection, wind lidar is often used for detecting complex urban wind fields. However, beam blockage caused by obstacles critically affects the quality of lidar data. To reconstruct wind fields blocked by obstacles, a wind field dataset is built to train the GANs model. The sensitivity of reconstruction effectiveness under different shielding conditions is studied to understand how shielding influences the reconstruction.</p>
             </div>
             
         </div>
@@ -282,5 +276,17 @@
             </div>
 
     </section> -->
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                © <span id="currentYear">2024</span> Designed by <b>Haoyu Yang</b> and <b>Cluade</b>
+
+                <script>
+                    document.getElementById('currentYear').textContent = new Date().getFullYear();
+                </script>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
